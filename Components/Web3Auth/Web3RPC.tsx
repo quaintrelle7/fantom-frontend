@@ -117,7 +117,7 @@ export default class EthereumRpc {
             const fromAddress = (await web3.eth.getAccounts())[0];
 
             console.log(contractInstance.methods);
-            const result = await contractInstance.methods.store().send({
+            const result = await contractInstance.methods.store(4).send({
                 from: fromAddress,
             });
             console.log(result);

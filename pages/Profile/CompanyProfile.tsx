@@ -17,12 +17,12 @@ const CompanyProfile: React.FC<CompanyProfileProps> = () => {
             <Box bg="black" >
                 <Box mx="5%" borderRadius={"10"} width="90%" >
                     <Tabs isFitted variant='enclosed'>
-                        <TabList bg={"brand.100"} color={"black"} >
+                        <TabList borderTopRadius="10" bg={"brand.100"} color={"black"} >
                             <Tab>Profile</Tab>
                             <Tab>Mint Tokens</Tab>
                             <Tab>Available Tokens</Tab>
                         </TabList>
-                        <TabPanels border={"1px white solid"} color={"white"}>
+                        <TabPanels borderBottomRadius="10" border={"1px white solid"} color={"white"}>
                             <TabPanel>
                                 <Box>
 
