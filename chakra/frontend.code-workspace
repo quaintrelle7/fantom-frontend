@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "frontend",
+		"path": ".."
+	},
+	{
+		"name": "chakra",
+		"path": "../../../Personal-Website/next-app/chakra"
+	}
+],
+  "settings": {}
+}
